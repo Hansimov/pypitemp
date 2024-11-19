@@ -1,2 +1,2 @@
-# pypi-template
+# pypitemp
 A template of pypi library
