@@ -1,7 +1,7 @@
 # pypitemp
 A template of pypi library
 
-![](https://img.shields.io/pypi/v/pypitemp?label=wikixml&color=blue&cacheSeconds=60)
+![](https://img.shields.io/pypi/v/pypitemp?label=pypitemp&color=blue&cacheSeconds=60)
 
 ## Install
 
