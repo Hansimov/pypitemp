@@ -5,12 +5,29 @@ A template of pypi library
 
 ## Create new project
 
+Create new Github Repo.
+
+Add GitHub Action Repository Secrets (Settings > Secrets and variables > Actions) with name `PYPI_TOKEN` for PyPI deployment.
+
+Copy init file structure:
+
 ```sh
 # ~/repos/pypitemp
 python template.py -s "." -t "~/repos/tfmx" -n "tfmx" -d "Serve Transformers in one line" -v "0.0.1"
 ```
 
-## Install
+Init and point to remote github repo:
+
+```sh
+git init
+git add .
+git branch -M main
+git commit -m ":gem: [Feature] init project"
+git remote add origin https://github.com/Hansimov/tfmx.git
+git push -u origin main
+```
+
+## Install package
 
 ```sh
 pip install pypitemp --upgrade
