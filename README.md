@@ -3,6 +3,13 @@ A template of pypi library
 
 ![](https://img.shields.io/pypi/v/pypitemp?label=pypitemp&color=blue&cacheSeconds=60)
 
+## Create new project
+
+```sh
+# ~/repos/pypitemp
+python template.py -s "." -t "~/repos/tfmx" -n "tfmx" -d "Serve Transformers in one line" -v "0.0.1"
+```
+
 ## Install
 
 ```sh

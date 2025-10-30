@@ -114,3 +114,5 @@ if __name__ == "__main__":
     main(args)
 
     # python template.py -s "." -t "~/repos/temp-test" -n "temp-test" -d "This is a test package" -v "0.0.1"
+    # python template.py -s "." -t "~/repos/webu" -n "webu" -d "Web Utils for browsing and scraping" -v "0.0.1"
+    # python template.py -s "." -t "~/repos/knoweb" -n "knoweb" -d "Know everything via Web with LLM" -v "0.0.1"
